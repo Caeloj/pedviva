@@ -1,0 +1,73 @@
+:root{
+ --fond: #F2F0C8;
+ --text: #242219;
+ --azul: #519DFA;
+ --amar: #fADA4C;
+ --mora: #753BF7;
+}
+
+*{
+ padding: 0px;
+ margin: 0px;
+}
+
+body {
+ background-color: var(--fond);
+}
+
+header {
+ background-color: var(--text);
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ height: 100px;
+}
+
+div {
+ height: 100px;
+ display: flex;
+ align-items: center;
+ gap: 400px;
+}
+
+nav {
+ display: flex;
+ gap: 40px;
+}
+
+a {
+ text-decoration: none;
+ text-transform: uppercase;
+ font-weight: 700;
+ font-size: 18px;
+ color: var(--fond);
+}
+
+img {
+ width: 180px;
+}
+
+.sec {
+ padding: 20px;
+}
+
+.sec h1 {
+ text-transform: uppercase;
+ font-weight: 900;
+ font-size: 48px;
+ padding-bottom: 10px;
+}
+
+.sec h2 {
+ font-weigth: 800;
+ font-size: 24px;
+ padding-bottom: 8px;
+}
+
+.sec a {
+ color: var(--mora);
+}
+
+.sec p {
+ padding-bottom: 20px;
+}
